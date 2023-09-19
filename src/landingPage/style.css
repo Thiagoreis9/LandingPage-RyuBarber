@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    height: 80px;
+}
+
+header img {
+    height: 100px;
+}
+
+button img {
+    height: 30px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #B2987D;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.secao-banner {
+    height: 250px;
+    width: 100vw;
+    max-width: unset;
+    background-image: url(../../public/assets/banner-barbearia.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secao-texto {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: calc(100vh - 80px - 250px);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.secao-texto p:first-of-type {
+    font-weight: 600;
+}
+
+.secao-texto p:last-of-type {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    color: #B2987D;
+}
+
+@media screen and (max-width: 629px){
+    .secao-texto{
+        padding-top: 40px;
+        height: auto;
+        max-height: 900px;
+        gap: 20px;
+    }
+}

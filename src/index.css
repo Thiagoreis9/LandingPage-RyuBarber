@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+::selection{
+  background-color: #B2987D;
+}
+
+.limitar-secao {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.modo-light{
+  background-color: #fff;
+  color: #000;
+  transition: 2s;
+}
+
+.modo-dark{
+  background-color: #000;
+  color: #fff;
+  transition: 2s;
+}
